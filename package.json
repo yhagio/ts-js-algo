@@ -1,0 +1,37 @@
+{
+  "name": "practical_algo_ts",
+  "version": "0.1.0",
+  "description": "practice makes perfect",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "algorithm"
+  ],
+  "author": "Yuichi Hagio",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "23.3.1",
+    "jest": "23.5.0",
+    "ts-jest": "23.1.4",
+    "typescript": "3.0.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?|ts?)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
